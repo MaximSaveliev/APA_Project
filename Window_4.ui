@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Window_4</class>
+ <widget class="QDialog" name="Window_4">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Color Detection</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Icon.png</normaloff>Icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(245, 248, 250);
+color: rgb(20, 23, 26);</string>
+  </property>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>520</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string>Go Back</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#backButton
+{
+color: #fff;
+border-radius: 10%;
+font-size: 24px;
+font-weight: bold;
+background-color: rgb(29, 161,242);
+}
+#backButton:hover
+{
+background-color: rgb(50, 119, 194);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/arrow-left.svg</normaloff>Icons/arrow-left.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>28</width>
+     <height>28</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="downloadButton">
+   <property name="geometry">
+    <rect>
+     <x>175</x>
+     <y>15</y>
+     <width>112</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#downloadButton
+{
+color: #fff;
+border-radius: 10%;
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+background-color: rgb(29, 161,242);
+}
+#downloadButton:hover
+{
+background-color: rgb(50, 119, 194);
+}</string>
+   </property>
+   <property name="text">
+    <string> Download</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/download.svg</normaloff>Icons/download.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>12</width>
+     <height>12</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="uploadButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>15</y>
+     <width>115</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#uploadButton
+{
+color: #fff;
+border-radius: 10%;
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+background-color: rgb(29, 161,242);
+}
+#uploadButton:hover
+{
+background-color: rgb(50, 119, 194);
+}</string>
+   </property>
+   <property name="text">
+    <string> Upload File</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/upload.svg</normaloff>Icons/upload.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>12</width>
+     <height>12</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="realTimeButton">
+   <property name="geometry">
+    <rect>
+     <x>317</x>
+     <y>15</y>
+     <width>112</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#realTimeButton
+{
+color: #fff;
+border-radius: 10%;
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+background-color: rgb(29, 161,242);
+}
+#realTimeButton:hover
+{
+background-color: rgb(50, 119, 194);
+}</string>
+   </property>
+   <property name="text">
+    <string> Real Time</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/person-video.svg</normaloff>Icons/person-video.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>12</width>
+     <height>12</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
